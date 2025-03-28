@@ -1,7 +1,6 @@
 ---
 - name: Create Ansible folder
   hosts: all
-  ansible_user: ansible 
   become: true
 
   tasks:
